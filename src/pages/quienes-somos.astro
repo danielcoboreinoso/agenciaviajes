@@ -1,0 +1,24 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead 
+             title="Quiénes somos | Agencia de Viajes" 
+              description="Conoce al equipo de profesionales de nuestra agencia de viajes." 
+/>
+	</head>
+	<body>
+		<Header />
+		<main>
+      <h1>Quiénes somos</h1>
+      <p>Somos un equipo de profesores dedicados a la formación práctica.</p>
+    </main>
+		<Footer />
+	</body>
+</html>
