@@ -7,7 +7,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://danielcoboreinoso.github.io',
-	base: '/agencia-viajes/',
+	base: '/agenciaviajes/',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{
